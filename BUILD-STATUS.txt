@@ -33,14 +33,16 @@ Filenames: hero-coach-consulting.jpg, hero-strategy-session.jpg, service-sales-c
 service-estimating-systems.jpg, service-crew-operations.jpg, service-marketing-leadgen.jpg,
 about-founder.jpg, cta-band.jpg. No placeholders, no emoji, no stock-corporate-handshake imagery.
 
-STITCH COVERAGE: 4 real AI-generated screens (home, sales-closing-coaching [program template],
-about, book-a-call) — zero quota issues, no hand-authored fallback needed. Stitch project
+STITCH COVERAGE: 5 real AI-generated screens across two parallel Stitch runs that converged on the
+same locked palette/type pairing: home.html, about.html, book-a-call.html,
+program-sales-closing-coaching.html, and sales-closing-coaching.html (two independent program-page
+generations covering the same representative program) — zero quota issues, no hand-authored
+fallback needed. Verified via `ls .stitch-pages/*.html`. Stitch project
 projects/7927210189198835175, design system assets/13818710175422086753. Palette + type pairing
 (Manrope/Inter) locked from the Stitch design system and applied via Tailwind CSS vars:
 primary rust/terracotta #B5541F, dark inverted-band clay-brown #6B3A22, accent gold/amber #D4A03C,
 secondary bronze/copper #9C6B34, sage green #6E7F52 — all verified warm-earth hues, zero
-purple/pink/blue. (Note: .stitch-pages/ also contains one extra duplicate render from a
-mid-generation retry — harmless, not shipped, reference-only directory.)
+purple/pink/blue.
 
 FORMS: contact (4-field: name/phone/email/message) + bookcall (6-field: name/phone/email/company/
 bottleneck-dropdown/details) — Netlify static pattern (data-netlify, honeypot, POST to
@@ -48,12 +50,13 @@ bottleneck-dropdown/details) — Netlify static pattern (data-netlify, honeypot,
 both forms and in public/__forms.html decoy. netlify.toml has both webhook notifications wired
 (tenant=josh, site=commercialcoatingscoach.com), no plugin-nextjs.
 
-GATE RESULT: pre-deploy-content-check.sh PASS (exit 0) — 18 own-keyword hits, no banned hues, no
-decaying scrim, 5 stitch screens across 10 routes (script counts both stitch-pages files).
+GATE RESULT: pre-deploy-content-check.sh PASS (exit 0), re-verified 2026-08-20 after final image
+pass — 20 own-keyword hits, no banned hues, no decaying scrim, 5 stitch screens across 10 routes.
 
 BUILD: pnpm build GREEN, static export (output:'export', out/ = 3.5M), next pinned 15.3.9,
 react/react-dom 19.2.0, pnpm-lock.yaml only (package-lock.json gitignored), pnpm-workspace.yaml
-scoped standalone + onlyBuiltDependencies sharp. tel: links = 15, no phone-modal pattern found.
+scoped to "." (packages: [] hard-errors on this pnpm version — fixed to packages: ["."])
++ onlyBuiltDependencies sharp. tel: links = 15, no phone-modal pattern found.
 Placeholder sweep: zero matches. git tree clean (node_modules/.next/out not tracked).
 
 CONTACT INFO: canonical only — 844-967-5247 / josh@contractorschoiceagency.com /
