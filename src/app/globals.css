@@ -3,46 +3,46 @@
 @tailwind utilities;
 
 /* ===== DESIGN TOKENS — Commercial Coatings Coach =====
- * Warm earth-tone palette only (terracotta/rust/clay/copper/bronze/amber/gold + natural greens).
- * Provisional values below — reconciled against ai/research/design-system.md (Stitch) once generated.
+ * Palette locked to the Stitch design system — ai/research/design-system.md
+ * (projects/7927210189198835175, assets/13818710175422086753)
  * Light, bright, corporate — B2B coaching site, light-dominant with dark punctuation bands.
  */
 
 @layer base {
 :root {
-  --background: 33 52% 96%;           /* #FAF5EF warm off-white */
-  --foreground: 24 33% 18%;           /* #3C2A1E espresso */
+  --background: 38 44% 96%;           /* #FAF7F2 warm off-white */
+  --foreground: 26 24% 13%;           /* #2A211A charcoal */
 
   --card: 0 0% 100%;
-  --card-foreground: 24 33% 18%;
+  --card-foreground: 26 24% 13%;
 
-  --primary: 21 71% 42%;              /* #B5541F burnt sienna */
+  --primary: 21 71% 42%;              /* #B5541F rust/terracotta */
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 29 45% 37%;            /* #8B5E34 bronze */
+  --secondary: 32 50% 41%;            /* #9C6B34 bronze/copper */
   --secondary-foreground: 0 0% 100%;
 
-  --accent: 40 57% 51%;               /* #C99A3D gold/ochre */
-  --accent-foreground: 24 33% 18%;
+  --accent: 40 64% 53%;               /* #D4A03C gold/amber */
+  --accent-foreground: 26 24% 13%;
 
   --sage: 83 23% 38%;                 /* #6E7F52 natural green */
   --sage-foreground: 0 0% 100%;
 
-  --muted: 33 40% 91%;
-  --muted-foreground: 26 14% 38%;
+  --muted: 35 44% 89%;                /* #F0E6D8 warm sand */
+  --muted-foreground: 30 15% 38%;
 
   --destructive: 0 74% 42%;
   --destructive-foreground: 0 0% 100%;
 
-  --border: 31 35% 84%;
-  --input: 31 35% 84%;
+  --border: 33 35% 85%;
+  --input: 33 35% 85%;
   --ring: 21 71% 42%;
 
   /* Inverted contrast band — dark punctuation band on this light-dominant site */
-  --ink: 24 33% 18%;
-  --ink-foreground: 33 40% 95%;
+  --ink: 20 52% 28%;                  /* #6B3A22 deep clay-brown */
+  --ink-foreground: 38 40% 95%;
 
-  --radius: 0.75rem;
+  --radius: 0.75rem;                  /* ROUND_TWELVE per Stitch design system */
 }
 
 * {

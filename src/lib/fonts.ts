@@ -1,13 +1,13 @@
-import { Sora, Inter } from "next/font/google";
+import { Manrope, Inter } from "next/font/google";
 
-// Provisional pairing — reconciled against ai/research/design-system.md (Stitch) once generated.
+// Font pairing locked by the Stitch design system (ai/research/design-system.md)
 export const bodyFont = Inter({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
 });
 
-export const headingFont = Sora({
+export const headingFont = Manrope({
   subsets: ["latin"],
   variable: "--font-heading",
   weight: ["500", "600", "700"],
