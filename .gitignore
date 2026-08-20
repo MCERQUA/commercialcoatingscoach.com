@@ -30,6 +30,15 @@ pnpm-debug.log*
 # Vercel
 .vercel
 
+# Netlify
+.netlify/
+
+# pnpm store
+.pnpm-store/
+
+# Never commit npm's lockfile — pnpm-lock.yaml is canonical
+package-lock.json
+
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
