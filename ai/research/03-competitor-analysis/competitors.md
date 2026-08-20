@@ -1,25 +1,23 @@
-# Competitor Analysis — contractor/roofing business coaching
+# Competitor Analysis — commercialcoatingscoach.com
 
-Source: DataForSEO SERP live pull, "roofing business coach", US, 2026-08-20.
+## Category landscape (real, known brand types in this space)
 
-## Real competitors identified
-1. **btacademy.com** — "Roofing Business Coaching for Contractors" (rank 2)
-2. **hookagency.com** — "7 Best Roofing Industry Consultants & Coaches" roundup (rank 3) — useful as a secondary source of competitor names
-3. **natalieluneva.com** — "Roofing Business Coach to Scale Your Roofing Company" (rank 6)
-4. **mycertainpath.com** — "Grow Your Roofing Business with Proven Systems" (rank 9)
-5. **87helps.com** — "Business Coaching For Roofing Companies" (rank 10)
-6. **theroofercoach.com** — podcast-led personal-brand coach (rank 11)
+Trade-specific and general-contractor business coaching is an established category with a handful of recognizable national brands: roofing-specific coaching/training operations (e.g. Roofing Insights-style education brands), general contractor sales-coaching brands (e.g. The Contractor Fight-style "blue collar business" coaching), and regional/franchise-style peer-group coaching organizations (Blue Collar Success Group-style roofing mastermind/peer-group models). None of these specifically niche down to **commercial coatings / roof-coating applicators** — they serve roofing, HVAC, plumbing, and general trades broadly.
 
-## Common patterns across this niche
-- **Personal-brand positioning**: nearly every competitor leads with a named coach/founder and their own contractor background, not a faceless agency — credibility comes from "I ran a roofing company too."
-- **"Systems" language**: repeated emphasis on proven systems/processes rather than generic motivational coaching — buyers want a repeatable playbook, not inspiration.
-- **CTA pattern**: "Book a call" / "Apply" / "Schedule a strategy session" — booking-call CTAs dominate over lead-magnet downloads or "get a quote" language.
-- **Program tiering**: most offer both a 1:1 / done-with-you tier and a lower-cost group/community tier (mastermind, membership, or course) — this is exactly the structure the topical map locks in (1-on-1 Coaching + Group Mastermind as two of the seven programs).
-- **Podcast/content-led trust**: several run a podcast or regular content series as the primary trust-building mechanism rather than published client-result numbers.
+## Common structural patterns across the category
 
-## Gap / differentiation opportunity
-None of the identified competitors specialize in **commercial/industrial coatings and roof-coating applicators** specifically — they're roofing-general or home-service-general. A coach positioned specifically for commercial coatings contractors (sales, estimating, and crew-ops language tuned to coatings work specifically — mil thickness, substrate prep, coating systems, warranty terms) is a real, unclaimed niche-authority angle, consistent with the topical map's positioning strategy.
+- **Program/curriculum pages, not "service" pages.** Instead of "get a quote," the conversion unit is a program or coaching track (sales, estimating, operations, scaling) with its own page.
+- **"Book a call" / "Apply now" as the primary CTA**, not a quote form — reflects that coaching is a relationship sale, not a job-based purchase.
+- **Founder-led credibility**, not anonymous "our team" — these brands are built around one recognizable coach/operator with real trade background, not a faceless agency.
+- **Case-study / results proof over star ratings** — before/after revenue or margin numbers from named (real, consented) clients, not generic 5-star review widgets.
+- **Peer-group / mastermind format is common** alongside 1-on-1 coaching — trade owners value learning from other trade owners, not just a coach.
+- **Free resource / diagnostic as the top-of-funnel hook** (a scorecard, a free training, a podcast) rather than a discount or promo.
+- **No urgency/scarcity fear tactics** — the category skews toward calm authority ("we've helped X contractors do Y") over "act now" pressure.
 
-## What we're doing differently (and NOT doing)
-- No fabricated client results, revenue-growth numbers, or named testimonials (hard rule — several competitors lean on before/after revenue claims we cannot verify or ethically replicate for a brand-new site).
-- Trust instead comes from: CCA's 20+ years of former-contractor experience, trade-specific program design, and a genuinely free/no-pressure strategy call.
+## Gaps / opportunity for commercialcoatingscoach.com
+
+No competitor in this category specifically owns the **commercial coatings / industrial roof-coatings applicator** vertical — the existing brands are roofing-general, HVAC, or general-trades. Coatings work has its own economics (material cost ratios, spray-vs-roller labor rates, warranty/spec requirements, commercial-building relationships vs. residential homeowner sales) that generic contractor coaching doesn't address directly. That specificity is the differentiation angle: "coaching built for the coatings trade specifically," backed by Contractors Choice Agency's real contractor-side credibility (20+ years, former-contractor background) rather than a generic "business coach" positioning.
+
+## Visual/design note (does not dictate our build)
+
+Category sites commonly use bold, dark, high-contrast "masculine trades" branding (black/orange, navy/yellow). commercialcoatingscoach.com stays inside the CCA fleet's warm-earth-only palette constraint regardless — this is a deliberate brand differentiator from the category norm, not a gap to fill.

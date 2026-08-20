@@ -1,37 +1,37 @@
 {
-  "source": "DataForSEO keywords_data/google_ads/search_volume/live, US, 2026-08-20",
-  "finding": "Commercial-coatings-specific coaching terms (e.g. 'commercial coatings coach', 'roof coating business coaching') return null/zero volume — same pattern as tract-home niche research. 'Commercial coatings' is the POSITIONING angle, not a volume keyword. Real demand sits on broader contractor/roofing business-coaching and sales/estimating terms.",
+  "source": "DataForSEO Labs (keyword_ideas, keyword_suggestions) + Google Ads search_volume, called directly against api.dataforseo.com — the 172.25.0.1:6350 tenant proxy was unreachable from this container, same gap noted on the tracthomecontractor.com research pass.",
+  "date": "2026-08-20",
+  "finding_summary": "This is a genuinely LOW-VOLUME, HIGH-CPC, HIGH-INTENT B2B niche. Branded coaching/mastermind terms (contractor coaching, roofing business coach, construction business coaching) all sit under 100/mo search volume nationally — there are only a few thousand commercial coatings/roofing contracting businesses in the US, not a mass consumer market. CPC on the adjacent commercial-intent terms is high ($11-$85), confirming real buyer value per lead even at low volume. Organic-only SEO on branded coaching terms is not a viable primary channel; content-authority (operational how-to content that ranks for contractor pain-point searches) is the realistic path, same pattern as tracthomecontractor.com's 'tract home' finding.",
   "primary": [
-    {"keyword": "roofing sales training", "volume": 390, "cpc": 9.47, "competition": "LOW"},
-    {"keyword": "contractor estimating software", "volume": 260, "cpc": 82.74, "competition": "LOW"},
-    {"keyword": "industrial coatings contractor", "volume": 590, "cpc": 11.44, "competition": "LOW"},
-    {"keyword": "home service business coach", "volume": 110, "cpc": 16.86, "competition": "LOW"},
-    {"keyword": "construction business coaching", "volume": 90, "cpc": 10.63, "competition": "LOW"},
-    {"keyword": "contractor business coach", "volume": 70, "cpc": null, "competition": "LOW"},
-    {"keyword": "business coach for contractors", "volume": 70, "cpc": null, "competition": "LOW"},
-    {"keyword": "construction sales training", "volume": 70, "cpc": 7.79, "competition": "LOW"}
+    { "keyword": "construction lead generation", "search_volume": 210, "cpc": 84.91, "competition": "LOW", "note": "adjacent commercial-intent term, high buyer value" },
+    { "keyword": "commercial roofing sales training", "search_volume": 10, "cpc": 78.5, "competition": "LOW" },
+    { "keyword": "roofing estimating software", "search_volume": 170, "cpc": 51.41, "competition": "MEDIUM", "note": "software-intent, informational content opportunity not direct conversion" },
+    { "keyword": "industrial coatings contractor", "search_volume": 590, "cpc": 11.44, "competition": "LOW", "note": "trade-context term, mixed intent (some searchers are hiring a contractor, not seeking coaching)" },
+    { "keyword": "construction business coaching", "search_volume": 90, "cpc": 19.06, "competition": "MEDIUM", "note": "closest direct branded-term match" },
+    { "keyword": "commercial roof coating contractor", "search_volume": 170, "cpc": 19.1, "competition": "LOW" },
+    { "keyword": "contractor business coaching", "search_volume": 70, "cpc": 10.51, "competition": "MEDIUM" },
+    { "keyword": "contractor coaching", "search_volume": 70, "cpc": 8.59, "competition": "MEDIUM" }
   ],
-  "secondary": [
-    {"keyword": "commercial roofing marketing", "volume": 30, "cpc": 30.67, "competition": "LOW"},
-    {"keyword": "trade business coach", "volume": 30, "cpc": 13.96, "competition": "MEDIUM"},
-    {"keyword": "how to price a roofing job", "volume": 40, "cpc": 10.04, "competition": "HIGH"},
-    {"keyword": "commercial roofing sales training", "volume": 10, "cpc": 78.5, "competition": "LOW"},
-    {"keyword": "contractor sales training", "volume": 20, "cpc": null, "competition": "LOW"},
-    {"keyword": "how to grow a roofing business", "volume": 20, "cpc": null, "competition": "LOW"},
-    {"keyword": "contractor mastermind", "volume": 10, "cpc": null, "competition": "MEDIUM"},
-    {"keyword": "contractor business consultant", "volume": 10, "cpc": null, "competition": "LOW"},
-    {"keyword": "how to bid commercial roofing jobs", "volume": 10, "cpc": 13.43, "competition": "HIGH"},
-    {"keyword": "commercial roof coating cost", "volume": 10, "cpc": null, "competition": "MEDIUM"}
+  "secondary_operational": [
+    { "keyword": "how to get commercial roofing leads", "search_volume": 30, "cpc": 35.89, "competition": "HIGH" },
+    { "keyword": "contractor business plan template", "search_volume": 30, "cpc": 4.27, "competition": "LOW" },
+    { "keyword": "how to scale a construction business", "search_volume": 20, "cpc": null, "competition": "MEDIUM" },
+    { "keyword": "how to grow a roofing company", "search_volume": 10, "cpc": 21.89, "competition": "LOW" },
+    { "keyword": "how to bid commercial roofing jobs", "search_volume": 10, "cpc": 13.43, "competition": "HIGH" }
   ],
-  "longtail_zero_or_null_but_used_for_content": [
-    "roofing business coaching",
-    "contractor marketing coach",
-    "roofing company growth",
-    "how to start a coatings business",
-    "spray foam roofing business",
-    "commercial coatings sales training",
-    "commercial coatings estimating",
-    "roof coating applicator business coaching"
+  "longtail_zero_volume_but_real_intent": [
+    "roofing crew management",
+    "roofing company profit margin",
+    "roofing business growth",
+    "roof coating profit margin",
+    "roof coating applicator training",
+    "how to start a commercial roofing business",
+    "how to price commercial painting jobs",
+    "how to price a roof coating job",
+    "contractor mastermind group",
+    "construction sales coaching",
+    "electrical contractor sales training",
+    "hvac contractor sales training"
   ],
-  "note": "High-CPC / low-volume terms (contractor estimating software $82.74, commercial roofing sales training $78.5, commercial roofing marketing $30.67, how to bid commercial roofing jobs $13.43) confirm strong commercial intent and high customer LTV in this niche despite thin search volume — consistent with a high-ticket B2B coaching offer, not a volume-play content site."
+  "location_note": "National B2B offer — no location-keyword category needed (coaching clients are nationwide, unlike the homeowner-facing lead-gen sites in the fleet)."
 }

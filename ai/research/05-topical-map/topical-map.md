@@ -1,29 +1,41 @@
 # Topical Map — commercialcoatingscoach.com
 
 ## Positioning
-"Commercial coatings" is the niche-authority angle (industrial/commercial roof coatings & restoration coatings applicators), not a search-volume keyword — same pattern as prior builds where the exact trade name has near-zero volume. Real demand sits on broader "contractor/roofing business coaching," "sales training," and "estimating" terms (see keywords.json). Content targets those terms while the brand and program framing stays specifically for commercial coatings contractors — the differentiation gap: no competitor owns "business coaching specifically for commercial coatings applicators."
+Business coaching and consulting built specifically for owners/operators of commercial coatings contracting businesses (commercial and industrial roof coatings, restoration coatings applicators). Backed by Contractors Choice Agency's former-contractor credibility. National, B2B, relationship-driven — not a per-job lead-gen site.
 
 ## Pillar
-Business coaching for owners of commercial and industrial roof-coating / restoration-coating contracting companies — sales, estimating, crew operations, marketing, and scaling systems.
+"Business coaching for the commercial coatings trade" — the vertical-specific gap identified in competitor analysis.
 
-## Final 7 coaching programs (locked — matches src/lib/site.ts, do not rename slugs without updating both)
-1. Sales & Closing Coaching — `/programs/sales-closing-coaching` (targets: roofing sales training 390/mo, commercial roofing sales training $78.5 CPC)
-2. Estimating & Bidding Systems — `/programs/estimating-bidding-systems` (targets: contractor estimating software 260/mo $82.74 CPC, how to price/bid a roofing job)
-3. Crew Operations & Production Coaching — `/programs/crew-operations-coaching` (targets: construction business coaching, production scheduling pain points)
-4. Marketing & Lead Generation — `/programs/marketing-lead-generation` (targets: commercial roofing marketing $30.67 CPC, contractor marketing coach)
-5. Business Systems & Scaling — `/programs/business-systems-scaling` (targets: construction business coaching 90/mo, how to grow a roofing business)
-6. One-on-One Coaching — `/programs/one-on-one-coaching` (targets: contractor business coach 70/mo, business coach for contractors 70/mo)
-7. Group Coaching Mastermind — `/programs/group-mastermind` (targets: contractor mastermind, trade business coach)
+## Final Program Pages (7 — locked, drives nav/content)
 
-## Primary CTA framing
-"Book a Free Strategy Call" (not "Get a Quote" — this is a coaching/consulting offer, not a repair job). Secondary CTA: "Apply for Coaching" on the contact/booking page framed as an application, consistent with real coaching-site conversion patterns (light qualification, not a hard gate).
+1. **Sales & Closing Coaching** — `/programs/sales-closing-coaching`
+   Curriculum area. Closing commercial coatings bids, handling building-owner/facility-manager sales cycles, objection handling on price vs. material spec.
 
-## Blog topics (3-5, longtail/PAA-targeted)
-1. How to Price a Commercial Roof Coating Job Without Losing Margin (targets: how to price a roofing job, how to bid commercial roofing jobs)
-2. Why Most Coatings Contractors Underprice Their Bids
-3. Building a Sales Process for Commercial Coatings Jobs That Doesn't Rely on the Owner
-4. What Contractor Estimating Software Won't Fix (Systems vs. Tools)
-5. How to Build a Marketing Pipeline for Commercial Roofing & Coatings Leads
+2. **Estimating & Bidding Systems** — `/programs/estimating-bidding-systems`
+   Curriculum area. Building a repeatable, profitable bidding process for coatings jobs (material take-offs, labor-rate accuracy, margin protection). Ties to real keyword signal: "roofing estimating software" (170 vol, $51 CPC) and "how to bid commercial roofing jobs."
 
-## Core pages
-About (founder/coach credibility — CCA-backed, former-contractor framing, NOT fabricated case studies), Book a Call / Contact, Privacy, Terms.
+3. **Crew Operations & Production Coaching** — `/programs/crew-operations-coaching`
+   Curriculum area. Running crews and production schedules without the owner on every job site; QC and warranty-spec compliance systems.
+
+4. **Marketing & Lead Generation for Coatings Contractors** — `/programs/marketing-lead-generation`
+   Curriculum area. Ties to the highest-CPC signal found ("construction lead generation," $84.91 CPC) — building a pipeline beyond word-of-mouth/referral.
+
+5. **Business Systems & Scaling** — `/programs/business-systems-scaling`
+   Curriculum area. Financial systems, hiring, and the operational backbone needed to grow past an owner-operator ceiling.
+
+6. **One-on-One Executive Coaching** — `/programs/one-on-one-coaching`
+   Delivery format. Private coaching engagement for an owner who wants individualized, confidential strategy work.
+
+7. **Group Coaching & Mastermind** — `/programs/group-mastermind`
+   Delivery format. Peer-group model — coatings contractor owners learning from each other alongside coach-led curriculum, matching the category's common mastermind pattern.
+
+## Blog / Content Cluster (5 topics — informational, feeds low-volume-but-real longtail search)
+
+1. How to Price a Commercial Roof Coating Job (Without Leaving Money on the Table)
+2. Roofing & Coatings Company Profit Margins: What's Actually Realistic
+3. How to Generate Commercial Roofing & Coatings Leads Without Cold Calling
+4. Building a Coatings Crew That Runs Without You on Every Job
+5. How to Bid Commercial Roofing & Coatings Jobs — and Actually Win Them
+
+## Internal linking strategy
+Homepage → 7 program pages (grid) + blog cluster. Each blog post links to its most relevant 1-2 program pages (e.g. the pricing post links to Estimating & Bidding Systems; the lead-gen post links to Marketing & Lead Generation). Program pages cross-link to About (founder credibility) and Apply/Book-a-Call (primary CTA).
