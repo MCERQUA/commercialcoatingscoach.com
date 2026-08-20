@@ -1,15 +1,13 @@
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Sora, Inter } from "next/font/google";
 
-// UPDATE: Replace with fonts from brand intake.
-// See instructions/design-system.md for recommended pairings by tone.
-
+// Provisional pairing — reconciled against ai/research/design-system.md (Stitch) once generated.
 export const bodyFont = Inter({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
 });
 
-export const headingFont = Space_Grotesk({
+export const headingFont = Sora({
   subsets: ["latin"],
   variable: "--font-heading",
   weight: ["500", "600", "700"],
