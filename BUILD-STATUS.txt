@@ -1,0 +1,77 @@
+commercialcoatingscoach.com — BUILD STATUS
+Generated: 2026-08-20
+Builder: josh-desk-2@mesh
+
+DOMAIN CLASSIFICATION
+Trade-adjacent B2B coaching/consulting lead-gen site (NOT insurance, NOT a physical trade-service
+site). Audience: owners of commercial/industrial roof-coating & restoration-coatings contracting
+companies. Niche angle decided via DataForSEO research: no competitor coaching brand niches
+specifically into commercial coatings — that vertical specificity, backed by CCA's real
+former-contractor credibility, is the differentiation gap.
+
+ROUTES: 25 static routes generated (next build output, confirmed via `pnpm run build`)
+  - / (home)
+  - /about
+  - /programs (index) + 7 program detail pages:
+      sales-closing-coaching, estimating-bidding-systems, crew-operations-coaching,
+      marketing-lead-generation, business-systems-scaling, one-on-one-coaching, group-mastermind
+  - /blog (index) + 5 posts:
+      how-to-price-a-commercial-roof-coating-job, why-coatings-contractors-underprice-bids,
+      sales-process-not-reliant-on-owner, what-estimating-software-wont-fix,
+      marketing-pipeline-commercial-roofing-coatings-leads
+  - /contact
+  - /book-a-call (primary conversion page — "Book a Free Strategy Call")
+  - /privacy, /terms
+  - /sitemap.xml, /robots.txt, /_not-found
+
+HOMEPAGE: 9 sections — Hero (full-bleed photo, scrim >=50% opacity, trust bar) + ProgramsGrid +
+WhyThisWorks + ProcessSteps + Stats (inverted dark-clay band) + TrustSignals (real, verifiable
+trust markers — no fabricated testimonials/ratings) + FAQ + CTA (photo band) + Footer.
+
+IMAGE COUNT: 8 generated (Gemini) + optimized. Total public/images/ = 912K, largest file 150KB.
+Filenames: hero-coach-consulting.jpg, hero-strategy-session.jpg, service-sales-coaching.jpg,
+service-estimating-systems.jpg, service-crew-operations.jpg, service-marketing-leadgen.jpg,
+about-founder.jpg, cta-band.jpg. No placeholders, no emoji, no stock-corporate-handshake imagery.
+
+STITCH COVERAGE: 4 real AI-generated screens (home, sales-closing-coaching [program template],
+about, book-a-call) — zero quota issues, no hand-authored fallback needed. Stitch project
+projects/7927210189198835175, design system assets/13818710175422086753. Palette + type pairing
+(Manrope/Inter) locked from the Stitch design system and applied via Tailwind CSS vars:
+primary rust/terracotta #B5541F, dark inverted-band clay-brown #6B3A22, accent gold/amber #D4A03C,
+secondary bronze/copper #9C6B34, sage green #6E7F52 — all verified warm-earth hues, zero
+purple/pink/blue. (Note: .stitch-pages/ also contains one extra duplicate render from a
+mid-generation retry — harmless, not shipped, reference-only directory.)
+
+FORMS: contact (4-field: name/phone/email/message) + bookcall (6-field: name/phone/email/company/
+bottleneck-dropdown/details) — Netlify static pattern (data-netlify, honeypot, POST to
+/__forms.html per the Next.js route-cache gotcha), AEO traffic_source+landing_url hidden fields in
+both forms and in public/__forms.html decoy. netlify.toml has both webhook notifications wired
+(tenant=josh, site=commercialcoatingscoach.com), no plugin-nextjs.
+
+GATE RESULT: pre-deploy-content-check.sh PASS (exit 0) — 18 own-keyword hits, no banned hues, no
+decaying scrim, 5 stitch screens across 10 routes (script counts both stitch-pages files).
+
+BUILD: pnpm build GREEN, static export (output:'export', out/ = 3.5M), next pinned 15.3.9,
+react/react-dom 19.2.0, pnpm-lock.yaml only (package-lock.json gitignored), pnpm-workspace.yaml
+scoped standalone + onlyBuiltDependencies sharp. tel: links = 15, no phone-modal pattern found.
+Placeholder sweep: zero matches. git tree clean (node_modules/.next/out not tracked).
+
+CONTACT INFO: canonical only — 844-967-5247 / josh@contractorschoiceagency.com /
+12220 E Riggs Rd, Chandler, AZ 85249. No fabricated testimonials, star ratings, or named client
+results anywhere on the site — deliberate per hard rule, since this is a new brand with no real
+case-study data yet. Trust built on verifiable claims only (CCA's 20+ yr former-contractor
+experience, trade-specific program design, single-coach continuity).
+
+KNOWN GAP (flagged, not blocking): this container has no GITHUB_TOKEN, no gh auth, and no write
+access to /mnt/agent-mesh/github-push-requests (only admin-review is mounted here). Could not
+create MCERQUA/commercialcoatingscoach.com on GitHub or push. All work is committed to an
+independent local git repo (NOT the shared /workspace/Websites/.git) under josh-desk-2@mesh —
+needs host hand-off for repo creation + push, then Netlify hookup.
+
+ANOMALY NOTE: mid-build, a background research subagent misread its own task scope and briefly
+re-ran the project scaffold step, reverting package.json/next.config.ts/tailwind.config.ts/
+globals.css/layout.tsx/fonts.ts/Navbar.tsx to raw template defaults (dark theme, unpinned next,
+no static export). Caught via disk-state verification, restored all seven files, then the
+subagent self-corrected independently. Final state verified correct post-restoration (next pinned,
+static export, warm-earth palette, Programs/Book-a-Call nav) — confirmed via fresh reads before
+this report.
