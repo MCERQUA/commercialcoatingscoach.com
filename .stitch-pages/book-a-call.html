@@ -1,274 +1,278 @@
 <!DOCTYPE html>
 
-<html class="scroll-smooth" lang="en"><head>
+<html lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Apply for Coaching | Commercial Coatings Coach</title>
+<title>Book a Strategy Call - Commercial Coatings Coach</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Public+Sans:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Configuration -->
 <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            rust: '#B5541F',
-                            clay: '#6B3A22',
-                            gold: '#D4A03C',
-                            bronze: '#9C6B34',
-                            sage: '#6E7F52',
-                            offwhite: '#FAF7F2',
-                            sand: '#F0E6D8',
-                            charcoal: '#2A211A'
-                        }
-                    },
-                    borderRadius: {
-                        "DEFAULT": "0.5rem",
-                        "lg": "1rem",
-                        "xl": "1.5rem",
-                        "full": "9999px"
-                    },
-                    fontFamily: {
-                        "headline": ["Manrope", "sans-serif"],
-                        "display": ["Manrope", "sans-serif"],
-                        "body": ["Inter", "sans-serif"],
-                        "label": ["Public Sans", "sans-serif"]
-                    }
-                }
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                50: '#fff8f1',
+                100: '#ffefdb',
+                200: '#ffdbb0',
+                300: '#ffc17e',
+                400: '#ff9d44',
+                500: '#fe7d16',
+                600: '#ef6206',
+                700: '#c64b07',
+                800: '#9d3c0e',
+                900: '#7e3310',
+                950: '#441806',
+              }
+            },
+            borderRadius: {
+              "DEFAULT": "0.5rem",
+              "lg": "1rem",
+              "xl": "1.5rem",
+              "full": "9999px"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk", "sans-serif"],
+              "display": ["Space Grotesk", "sans-serif"],
+              "body": ["Work Sans", "sans-serif"],
+              "label": ["Public Sans", "sans-serif"]
             }
-        }
+          },
+        },
+      }
     </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #faf9f7; /* Off-white base */
+        }
+    </style>
 </head>
-<body class="bg-brand-offwhite text-brand-charcoal font-body antialiased selection:bg-brand-rust selection:text-white flex flex-col min-h-screen">
-<!-- TopNavBar -->
-<nav aria-label="Main Navigation" class="bg-[#FAF7F2] border-b border-[#F0E6D8] shadow-sm sticky top-0 z-50 w-full">
-<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
-<a class="text-2xl font-headline font-black text-[#6B3A22] tracking-tight" href="#">
+<body class="font-body text-stone-800 antialiased pt-20">
+<!-- TopNavBar Component -->
+<nav class="fixed top-0 w-full z-50 bg-white/95 dark:bg-stone-900/95 backdrop-blur-md border-b border-stone-200 dark:border-stone-800 shadow-sm transition-all duration-300">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<a class="font-headline text-xl font-bold text-stone-900 dark:text-white flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-orange-800" style="font-variation-settings: 'FILL' 1;">architecture</span>
                 Commercial Coatings Coach
             </a>
 <div class="hidden md:flex items-center gap-8">
-<a class="text-[#2A211A] hover:text-[#B5541F] transition-colors font-label tracking-wide text-sm font-semibold" href="#">Coaching</a>
-<a class="text-[#2A211A] hover:text-[#B5541F] transition-colors font-label tracking-wide text-sm font-semibold" href="#">Sales &amp; Bidding</a>
-<a class="text-[#2A211A] hover:text-[#B5541F] transition-colors font-label tracking-wide text-sm font-semibold" href="#">Lead Gen</a>
-<a class="text-[#2A211A] hover:text-[#B5541F] transition-colors font-label tracking-wide text-sm font-semibold" href="#">About</a>
+<a class="font-headline text-lg font-bold tracking-tight text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white transition-colors hover:bg-stone-50 dark:hover:bg-stone-800 px-3 py-2 rounded-DEFAULT" href="#">The Methodology</a>
+<a class="font-headline text-lg font-bold tracking-tight text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white transition-colors hover:bg-stone-50 dark:hover:bg-stone-800 px-3 py-2 rounded-DEFAULT" href="#">Coaching Programs</a>
+<a class="font-headline text-lg font-bold tracking-tight text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white transition-colors hover:bg-stone-50 dark:hover:bg-stone-800 px-3 py-2 rounded-DEFAULT" href="#">About the Coach</a>
+<a class="bg-orange-800 text-white font-headline text-lg font-bold tracking-tight px-6 py-2.5 rounded-DEFAULT hover:bg-orange-900 active:scale-95 duration-200 transition-all shadow-sm" href="#booking-form">Book a Free Strategy Call</a>
 </div>
-<div class="flex items-center gap-4">
-<a class="hidden lg:inline-flex items-center justify-center px-5 py-2.5 text-sm font-label font-bold text-[#B5541F] bg-transparent border-2 border-[#B5541F] rounded-lg hover:bg-[#F0E6D8] transition-all duration-300" href="#">
-                    Apply for Coaching
-                </a>
-<a class="inline-flex items-center justify-center px-6 py-2.5 text-sm font-label font-bold text-white bg-[#B5541F] rounded-lg hover:bg-[#9C6B34] shadow-md hover:shadow-lg transition-all duration-300 scale-100 hover:scale-[1.02]" href="#">
-                    Book a Free Strategy Call
-                </a>
-</div>
+<button class="md:hidden text-stone-900 p-2">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
 </div>
 </nav>
-<!-- Main Content Canvas -->
-<main class="flex-grow">
-<!-- Hero Section (Minimalist, text-focused) -->
-<section class="pt-24 pb-16 px-6 relative overflow-hidden bg-brand-sand">
-<div class="max-w-4xl mx-auto text-center relative z-10">
-<h1 class="font-headline font-extrabold text-5xl md:text-6xl text-brand-clay leading-tight mb-6">
-                    Apply for Strategic <span class="text-brand-rust">Mentorship</span>
+<!-- Hero Section -->
+<header class="relative w-full min-h-[60vh] flex items-center justify-center bg-stone-900">
+<div class="absolute inset-0 w-full h-full bg-stone-900">
+<img alt="Strategy Session" class="w-full h-full object-cover opacity-40 mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbYx1XmEmWgm_K-SSCV1J8FZ2789jkI593EflJUw3t5Hvi8CYDcz9YusXIn-jpvTYsqWwxhU_-CkcRsGxTUemZ5YVncB5nDl1CZFYYi-02cUCzR3_sWtvi8ZbNd8O1fQDXPBlvLFZESeevp9R63uGEIN35GYDLwrbCYiHxDdsuSygXB7TKNwwJijHD0HxqgiH_42hkLSWZAm3IyQp7JGfVxPshx9e5N_MLD3FCoyF7C8ld8rsHHgwrXAfyxX8XQra8Y3kNwoy5mUg"/>
+</div>
+<div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
+<h1 class="font-headline text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                Book Your Free <span class="text-primary-400">Strategy Call</span>
 </h1>
-<p class="font-body text-lg md:text-xl text-brand-charcoal/80 max-w-2xl mx-auto mb-10 leading-relaxed">
-                    High-authority advisory for commercial roofing contractors ready to scale operations, master bidding, and dominate their local market.
-                </p>
+<p class="font-body text-xl md:text-2xl text-stone-200 mb-10 max-w-3xl mx-auto leading-relaxed">
+                A 45-minute deep dive into your business to identify the exact systems you need to scale beyond the field.
+            </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+<a class="inline-flex items-center justify-center bg-primary-600 hover:bg-primary-700 text-white font-headline font-bold text-lg px-8 py-4 rounded-lg transition-all active:scale-95 shadow-lg w-full sm:w-auto" href="#booking-form">
+                    Request My Strategy Call
+                    <span class="material-symbols-outlined ml-2">arrow_forward</span>
+</a>
+<div class="flex items-center gap-2 text-white font-label font-medium text-lg">
+<span class="material-symbols-outlined text-primary-400">call</span>
+<span>(800) 555-0199</span>
 </div>
-</section>
-<!-- Trust Bar -->
-<section class="py-8 bg-brand-offwhite border-b border-brand-sand">
+</div>
+</div>
+</header>
+<!-- Two-Column Section: What Happens Next & Booking Form -->
+<section class="py-24 bg-[#faf9f7]" id="booking-form">
 <div class="max-w-7xl mx-auto px-6">
-<div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-3xl text-brand-rust" style="font-variation-settings: 'FILL' 1;">verified</span>
-<span class="font-headline font-bold text-brand-clay text-lg uppercase tracking-wider">Nationwide Service</span>
-</div>
-<div class="hidden md:block w-px h-8 bg-brand-bronze/30"></div>
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-3xl text-brand-rust" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
-<span class="font-headline font-bold text-brand-clay text-lg uppercase tracking-wider">Backed by Contractors Choice</span>
-</div>
-<div class="hidden md:block w-px h-8 bg-brand-bronze/30"></div>
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-3xl text-brand-rust" style="font-variation-settings: 'FILL' 1;">trending_up</span>
-<span class="font-headline font-bold text-brand-clay text-lg uppercase tracking-wider">$50M+ Revenue Scaled</span>
-</div>
-</div>
-</div>
-</section>
-<!-- Application Two-Column Section -->
-<section class="py-24 px-6 bg-brand-offwhite relative">
-<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
-<!-- Left Column: What Happens Next -->
-<div class="lg:col-span-5 space-y-12 sticky top-32">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+<!-- Left Side: What Happens Next -->
+<div class="space-y-12">
 <div>
-<h2 class="font-headline font-bold text-3xl text-brand-clay mb-8">The Process</h2>
+<h2 class="font-headline text-3xl md:text-4xl font-bold text-stone-900 mb-4">What Happens Next</h2>
+<p class="font-body text-lg text-stone-600">We don't do high-pressure sales. This is a consultative process designed to bring clarity to your operation.</p>
+</div>
 <div class="space-y-8">
-<!-- Step 1 -->
-<div class="flex gap-6 group">
-<div class="flex-shrink-0 w-12 h-12 rounded-full bg-brand-sand text-brand-rust flex items-center justify-center font-headline font-bold text-xl border-2 border-brand-rust/20 group-hover:bg-brand-rust group-hover:text-white transition-colors duration-300">
-                                    1
-                                </div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center text-primary-800 font-headline font-bold text-xl">1</div>
 <div>
-<h3 class="font-headline font-bold text-xl text-brand-clay mb-2">Submit Application</h3>
-<p class="text-brand-charcoal/70 text-sm leading-relaxed">Provide details about your current operations, revenue, and primary bottlenecks so we can assess fit before we talk.</p>
+<h3 class="font-headline text-xl font-bold text-stone-900 mb-2">Discovery</h3>
+<p class="font-body text-stone-600 leading-relaxed">We review your current numbers, team structure, and primary goals to understand your baseline.</p>
 </div>
 </div>
-<!-- Step 2 -->
-<div class="flex gap-6 group">
-<div class="flex-shrink-0 w-12 h-12 rounded-full bg-brand-sand text-brand-rust flex items-center justify-center font-headline font-bold text-xl border-2 border-brand-rust/20 group-hover:bg-brand-rust group-hover:text-white transition-colors duration-300">
-                                    2
-                                </div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center text-primary-800 font-headline font-bold text-xl">2</div>
 <div>
-<h3 class="font-headline font-bold text-xl text-brand-clay mb-2">Strategy Session</h3>
-<p class="text-brand-charcoal/70 text-sm leading-relaxed">A deep-dive video call to diagnose your business structure, sales process, and identify immediate growth levers.</p>
+<h3 class="font-headline text-xl font-bold text-stone-900 mb-2">Gap Analysis</h3>
+<p class="font-body text-stone-600 leading-relaxed">Identify exactly where your estimating, production, or sales systems are leaking profit and causing bottlenecks.</p>
 </div>
 </div>
-<!-- Step 3 -->
-<div class="flex gap-6 group">
-<div class="flex-shrink-0 w-12 h-12 rounded-full bg-brand-sand text-brand-rust flex items-center justify-center font-headline font-bold text-xl border-2 border-brand-rust/20 group-hover:bg-brand-rust group-hover:text-white transition-colors duration-300">
-                                    3
-                                </div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center text-primary-800 font-headline font-bold text-xl">3</div>
 <div>
-<h3 class="font-headline font-bold text-xl text-brand-clay mb-2">Enrollment &amp; Strategy</h3>
-<p class="text-brand-charcoal/70 text-sm leading-relaxed">If accepted, we begin official onboarding and map out your custom 90-day execution plan.</p>
+<h3 class="font-headline text-xl font-bold text-stone-900 mb-2">Strategic Roadmap</h3>
+<p class="font-body text-stone-600 leading-relaxed">Develop a custom plan to implement the CCC methodology and scale your commercial operations profitably.</p>
+</div>
+</div>
+</div>
+<div class="bg-stone-100 p-6 rounded-xl border border-stone-200">
+<div class="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-3xl text-primary-700" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+<span class="font-headline font-bold text-stone-900">20+ Years Field Exp.</span>
+</div>
+<div class="hidden sm:block w-px h-8 bg-stone-300"></div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-3xl text-primary-700" style="font-variation-settings: 'FILL' 1;">handshake</span>
+<span class="font-headline font-bold text-stone-900">Contractor-to-Contractor</span>
 </div>
 </div>
 </div>
 </div>
-<div class="p-8 bg-brand-sand/50 rounded-xl border border-brand-bronze/20">
-<h4 class="font-label font-bold text-brand-clay uppercase tracking-wider text-sm mb-4">Direct Contact</h4>
-<div class="space-y-3 text-brand-charcoal font-medium">
-<p class="flex items-center gap-3">
-<span class="material-symbols-outlined text-brand-rust text-lg">mail</span>
-                                support@commercialcoatingscoach.com
-                            </p>
-<p class="flex items-center gap-3">
-<span class="material-symbols-outlined text-brand-rust text-lg">phone</span>
-                                (888) 555-0198
-                            </p>
-</div>
-</div>
-</div>
-<!-- Right Column: Form Panel -->
-<div class="lg:col-span-7">
-<div class="bg-white rounded-2xl shadow-xl shadow-brand-clay/5 border border-brand-sand p-8 md:p-12">
-<div class="mb-8 border-b border-brand-sand pb-8">
-<h2 class="font-headline font-bold text-2xl text-brand-clay mb-2">Application Form</h2>
-<p class="text-brand-charcoal/60 text-sm">All fields are required to secure your strategy session.</p>
-</div>
+<!-- Right Side: Booking Form Panel -->
+<div class="bg-white p-8 md:p-10 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-stone-100">
+<h3 class="font-headline text-2xl font-bold text-stone-900 mb-6">Secure Your Session</h3>
 <form class="space-y-6">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-<!-- Name -->
-<div>
-<label class="block font-label font-semibold text-sm text-brand-clay mb-2" for="fullName">Full Name</label>
-<input class="w-full rounded-lg border-brand-bronze/30 bg-brand-offwhite/50 focus:border-brand-rust focus:ring-brand-rust text-brand-charcoal py-3 px-4 transition-colors" id="fullName" placeholder="John Doe" type="text"/>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="font-label text-sm font-semibold text-stone-700">First Name</label>
+<input class="w-full rounded-DEFAULT border-stone-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 font-body transition-colors" placeholder="John" type="text"/>
 </div>
-<!-- Company Name -->
-<div>
-<label class="block font-label font-semibold text-sm text-brand-clay mb-2" for="companyName">Company Name</label>
-<input class="w-full rounded-lg border-brand-bronze/30 bg-brand-offwhite/50 focus:border-brand-rust focus:ring-brand-rust text-brand-charcoal py-3 px-4 transition-colors" id="companyName" placeholder="Apex Coatings Inc." type="text"/>
+<div class="space-y-2">
+<label class="font-label text-sm font-semibold text-stone-700">Last Name</label>
+<input class="w-full rounded-DEFAULT border-stone-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 font-body transition-colors" placeholder="Doe" type="text"/>
 </div>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-<!-- Email -->
-<div>
-<label class="block font-label font-semibold text-sm text-brand-clay mb-2" for="email">Work Email</label>
-<input class="w-full rounded-lg border-brand-bronze/30 bg-brand-offwhite/50 focus:border-brand-rust focus:ring-brand-rust text-brand-charcoal py-3 px-4 transition-colors" id="email" placeholder="john@company.com" type="email"/>
+<div class="space-y-2">
+<label class="font-label text-sm font-semibold text-stone-700">Email Address</label>
+<input class="w-full rounded-DEFAULT border-stone-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 font-body transition-colors" placeholder="john@company.com" type="email"/>
 </div>
-<!-- Phone -->
-<div>
-<label class="block font-label font-semibold text-sm text-brand-clay mb-2" for="phone">Phone Number</label>
-<input class="w-full rounded-lg border-brand-bronze/30 bg-brand-offwhite/50 focus:border-brand-rust focus:ring-brand-rust text-brand-charcoal py-3 px-4 transition-colors" id="phone" placeholder="(555) 123-4567" type="tel"/>
+<div class="space-y-2">
+<label class="font-label text-sm font-semibold text-stone-700">Phone Number</label>
+<input class="w-full rounded-DEFAULT border-stone-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 font-body transition-colors" placeholder="(555) 123-4567" type="tel"/>
 </div>
+<div class="space-y-2">
+<label class="font-label text-sm font-semibold text-stone-700">Company Name</label>
+<input class="w-full rounded-DEFAULT border-stone-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 font-body transition-colors" placeholder="Your Coatings Co." type="text"/>
 </div>
-<!-- Revenue Dropdown -->
-<div>
-<label class="block font-label font-semibold text-sm text-brand-clay mb-2" for="revenue">Current Annual Revenue Range</label>
-<select class="w-full rounded-lg border-brand-bronze/30 bg-brand-offwhite/50 focus:border-brand-rust focus:ring-brand-rust text-brand-charcoal py-3 px-4 transition-colors" id="revenue">
-<option disabled="" selected="" value="">Select revenue range...</option>
-<option value="under500k">Under $500,000</option>
-<option value="500k-1m">$500,000 - $1,000,000</option>
-<option value="1m-5m">$1,000,000 - $5,000,000</option>
-<option value="over5m">Over $5,000,000</option>
+<div class="space-y-2">
+<label class="font-label text-sm font-semibold text-stone-700">Biggest Challenge Right Now</label>
+<select class="w-full rounded-DEFAULT border-stone-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 font-body text-stone-700 transition-colors">
+<option disabled="" selected="" value="">Select an area...</option>
+<option value="estimating">Estimating / Bidding</option>
+<option value="sales">Sales / Closing</option>
+<option value="operations">Operations / Crew</option>
+<option value="marketing">Marketing / Leads</option>
 </select>
 </div>
-<!-- Challenge Textarea -->
-<div>
-<label class="block font-label font-semibold text-sm text-brand-clay mb-2" for="challenge">What is your biggest operational or sales challenge right now?</label>
-<textarea class="w-full rounded-lg border-brand-bronze/30 bg-brand-offwhite/50 focus:border-brand-rust focus:ring-brand-rust text-brand-charcoal py-3 px-4 transition-colors resize-none" id="challenge" placeholder="Be specific (e.g., estimating accuracy, crew retention, lead quality)..." rows="4"></textarea>
-</div>
-<button class="w-full flex items-center justify-center gap-2 px-8 py-4 text-lg font-headline font-bold text-white bg-brand-rust rounded-lg hover:bg-brand-clay shadow-lg hover:shadow-xl transition-all duration-300" type="button">
-                                Submit Application
-                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">arrow_forward</span>
-</button>
-<p class="text-center text-xs text-brand-charcoal/50 mt-4 font-medium">Your information is secure and will never be shared.</p>
+<button class="w-full bg-stone-900 hover:bg-stone-800 text-white font-headline font-bold text-lg py-4 rounded-lg transition-all active:scale-95 shadow-md mt-4" type="submit">
+                            Request My Strategy Call
+                        </button>
+<p class="text-center font-label text-xs text-stone-500 mt-4">Your information is secure and will never be shared.</p>
 </form>
 </div>
 </div>
 </div>
 </section>
-<!-- FAQ Section (Inverted Dark Band) -->
-<section class="py-24 px-6 bg-brand-clay text-brand-offwhite border-t-4 border-brand-gold">
-<div class="max-w-4xl mx-auto">
+<!-- Credibility Strip -->
+<section class="w-full bg-stone-900 py-16">
+<div class="max-w-7xl mx-auto px-6 text-center">
+<h2 class="font-headline text-2xl md:text-3xl font-bold text-white mb-4">Serving Commercial &amp; Industrial Coating Contractors Nationwide</h2>
+<div class="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
+<p class="font-body text-xl text-stone-300 uppercase tracking-widest font-semibold">Proven Field Systems</p>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-24 bg-stone-50">
+<div class="max-w-4xl mx-auto px-6">
 <div class="text-center mb-16">
-<h2 class="font-headline font-bold text-4xl mb-4 text-brand-offwhite">Frequently Asked Questions</h2>
-<p class="text-brand-sand/80 font-body text-lg">Clear answers before we get on the call.</p>
+<h2 class="font-headline text-4xl font-bold text-stone-900 mb-4">Common Questions</h2>
+<p class="font-body text-lg text-stone-600">Everything you need to know before we speak.</p>
 </div>
-<div class="space-y-6">
-<!-- FAQ 1 -->
-<div class="bg-brand-charcoal/20 border border-brand-bronze/20 rounded-xl p-6 hover:bg-brand-charcoal/30 transition-colors">
-<h3 class="font-headline font-bold text-xl text-brand-gold mb-3 flex items-start gap-3">
-<span class="material-symbols-outlined text-brand-rust shrink-0 mt-0.5">help</span>
-                            What happens after I apply?
-                        </h3>
-<p class="text-brand-sand/90 leading-relaxed ml-9 text-sm md:text-base">
-                            Our team reviews your application within 24 hours. If we determine we can help scale your specific operation, you'll receive a calendar link to book your dedicated Strategy Session.
-                        </p>
-</div>
-<!-- FAQ 2 -->
-<div class="bg-brand-charcoal/20 border border-brand-bronze/20 rounded-xl p-6 hover:bg-brand-charcoal/30 transition-colors">
-<h3 class="font-headline font-bold text-xl text-brand-gold mb-3 flex items-start gap-3">
-<span class="material-symbols-outlined text-brand-rust shrink-0 mt-0.5">help</span>
-                            Is there a fee for the strategy call?
-                        </h3>
-<p class="text-brand-sand/90 leading-relaxed ml-9 text-sm md:text-base">
-                            No. The initial strategy session is entirely complimentary. It serves as a mutual discovery call to ensure our consulting frameworks align with your business goals before any financial commitment is discussed.
-                        </p>
-</div>
-<!-- FAQ 3 -->
-<div class="bg-brand-charcoal/20 border border-brand-bronze/20 rounded-xl p-6 hover:bg-brand-charcoal/30 transition-colors">
-<h3 class="font-headline font-bold text-xl text-brand-gold mb-3 flex items-start gap-3">
-<span class="material-symbols-outlined text-brand-rust shrink-0 mt-0.5">help</span>
-                            What should I prepare for the call?
-                        </h3>
-<p class="text-brand-sand/90 leading-relaxed ml-9 text-sm md:text-base">
-                            Come prepared with your trailing 12-month revenue numbers, your current close rate on commercial bids, and an honest assessment of your team's operational bottlenecks.
-                        </p>
-</div>
+<div class="space-y-4">
+<!-- FAQ Item 1 -->
+<details class="group bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden [&amp;_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between cursor-pointer p-6 font-headline font-semibold text-lg text-stone-900 hover:text-primary-700 transition-colors">
+                        How long is the call?
+                        <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-stone-400 group-hover:text-primary-600">expand_more</span>
+</summary>
+<div class="p-6 pt-0 font-body text-stone-600 leading-relaxed border-t border-stone-100">
+                        The strategy call is scheduled for 45 minutes. This gives us enough time to dig into your current operational challenges and outline a practical roadmap without wasting your day.
+                    </div>
+</details>
+<!-- FAQ Item 2 -->
+<details class="group bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden [&amp;_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between cursor-pointer p-6 font-headline font-semibold text-lg text-stone-900 hover:text-primary-700 transition-colors">
+                        Is this a high-pressure sales pitch?
+                        <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-stone-400 group-hover:text-primary-600">expand_more</span>
+</summary>
+<div class="p-6 pt-0 font-body text-stone-600 leading-relaxed border-t border-stone-100">
+                        Absolutely not. We operate on a contractor-to-contractor basis. The goal of this call is to determine if our methodology is a good fit for your business. If it is, we'll discuss next steps. If not, you walk away with actionable advice.
+                    </div>
+</details>
+<!-- FAQ Item 3 -->
+<details class="group bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden [&amp;_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between cursor-pointer p-6 font-headline font-semibold text-lg text-stone-900 hover:text-primary-700 transition-colors">
+                        Do I need to be a certain size to qualify?
+                        <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-stone-400 group-hover:text-primary-600">expand_more</span>
+</summary>
+<div class="p-6 pt-0 font-body text-stone-600 leading-relaxed border-t border-stone-100">
+                        Our systems are designed for commercial coating contractors who are actively operating and looking to scale beyond owner-operator bottlenecks. While there is no strict revenue minimum, you should have an established business structure.
+                    </div>
+</details>
+<!-- FAQ Item 4 -->
+<details class="group bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden [&amp;_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between cursor-pointer p-6 font-headline font-semibold text-lg text-stone-900 hover:text-primary-700 transition-colors">
+                        What should I prepare for the call?
+                        <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-stone-400 group-hover:text-primary-600">expand_more</span>
+</summary>
+<div class="p-6 pt-0 font-body text-stone-600 leading-relaxed border-t border-stone-100">
+                        Come prepared with a rough idea of your annual volume, your typical job size, and the primary area where you feel your operation is getting stuck (e.g., getting leads, closing deals, or crew efficiency).
+                    </div>
+</details>
 </div>
 </div>
 </section>
-</main>
-<!-- Footer -->
-<footer class="bg-[#6B3A22] border-t-2 border-brand-rust/30">
-<div class="flex flex-col md:flex-row justify-between items-start gap-8 w-full px-8 py-12 max-w-7xl mx-auto">
-<div class="flex flex-col gap-4 max-w-sm">
-<span class="text-xl font-headline font-bold text-[#FAF7F2]">Commercial Coatings Coach</span>
-<p class="font-body text-sm text-[#FAF7F2] opacity-80 leading-relaxed">
-                    © 2024 Commercial Coatings Coach. All rights reserved. Built for Roofing Contractors.
+<!-- Footer Component -->
+<footer class="w-full py-12 bg-stone-900 dark:bg-black transition-opacity duration-300">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="flex flex-col gap-4">
+<span class="font-headline text-2xl font-bold text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-orange-400" style="font-variation-settings: 'FILL' 1;">architecture</span>
+                    Commercial Coatings Coach
+                </span>
+<p class="font-body text-sm leading-relaxed text-stone-400">
+                    © 2024 Commercial Coatings Coach. All rights reserved.
                 </p>
 </div>
-<div class="grid grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-4">
-<a class="font-label uppercase tracking-widest text-xs text-[#FAF7F2] opacity-80 hover:opacity-100 hover:text-[#D4A03C] transition-opacity focus:ring-2 focus:ring-[#D4A03C] focus:outline-none rounded-sm px-1 py-0.5" href="#">Strategic Advisory</a>
-<a class="font-label uppercase tracking-widest text-xs text-[#FAF7F2] opacity-80 hover:opacity-100 hover:text-[#D4A03C] transition-opacity focus:ring-2 focus:ring-[#D4A03C] focus:outline-none rounded-sm px-1 py-0.5" href="#">Estimating Mastery</a>
-<a class="font-label uppercase tracking-widest text-xs text-[#FAF7F2] opacity-80 hover:opacity-100 hover:text-[#D4A03C] transition-opacity focus:ring-2 focus:ring-[#D4A03C] focus:outline-none rounded-sm px-1 py-0.5" href="#">Crew Operations</a>
-<a class="font-label uppercase tracking-widest text-xs text-[#FAF7F2] opacity-80 hover:opacity-100 hover:text-[#D4A03C] transition-opacity focus:ring-2 focus:ring-[#D4A03C] focus:outline-none rounded-sm px-1 py-0.5" href="#">Marketing Systems</a>
-<a class="font-label uppercase tracking-widest text-xs text-[#FAF7F2] opacity-80 hover:opacity-100 hover:text-[#D4A03C] transition-opacity focus:ring-2 focus:ring-[#D4A03C] focus:outline-none rounded-sm px-1 py-0.5" href="#">Contact Support</a>
-<a class="font-label uppercase tracking-widest text-xs text-[#FAF7F2] opacity-80 hover:opacity-100 hover:text-[#D4A03C] transition-opacity focus:ring-2 focus:ring-[#D4A03C] focus:outline-none rounded-sm px-1 py-0.5" href="#">Privacy Policy</a>
+<div class="flex flex-col gap-3">
+<a class="font-body text-sm leading-relaxed text-stone-400 hover:text-orange-400 transition-colors hover:underline decoration-orange-500 underline-offset-4 w-fit" href="#">The Methodology</a>
+<a class="font-body text-sm leading-relaxed text-stone-400 hover:text-orange-400 transition-colors hover:underline decoration-orange-500 underline-offset-4 w-fit" href="#">Coaching Programs</a>
+<a class="font-body text-sm leading-relaxed text-stone-400 hover:text-orange-400 transition-colors hover:underline decoration-orange-500 underline-offset-4 w-fit" href="#">About the Coach</a>
+</div>
+<div class="flex flex-col gap-3">
+<a class="font-body text-sm leading-relaxed text-stone-400 hover:text-orange-400 transition-colors hover:underline decoration-orange-500 underline-offset-4 w-fit" href="#">Privacy Policy</a>
+<a class="font-body text-sm leading-relaxed text-stone-400 hover:text-orange-400 transition-colors hover:underline decoration-orange-500 underline-offset-4 w-fit" href="#">Terms of Service</a>
 </div>
 </div>
 </footer>
